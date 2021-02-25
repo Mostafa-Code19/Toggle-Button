@@ -15,8 +15,43 @@
     <title>React App</title>
   </head>
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-      hello world
+
+    <div class="header">
+      <ul class="navbar">
+        <a href=""><li class="menu">Menu 1</li></a>
+        <a href=""><li class="menu">Menu 2</li></a>
+        <li class="menu" id='menu3'>Menu 3</li>
+        <a href=""><li class="menu">Menu 4</li></a>
+        <a href=""><li class="menu">Menu 5</li></a>
+      </ul>
+    </div>
+
+    <div class='innerMenu3'>
+      <p class="text center" id='text'>
+        Lorem, ipsum dolor sit amet consectetur adip Lorem, ipsum dolor sit amet consectetur adip
+      </p>
+    </div>
+
+    <div class="explain">
+      <h1 class='center'>About</h1>
+      <p class="center txt wrapper">
+        these codes are very simple. they listen to the button or menu and when clicked, a style changing will happend with some transition. the unique thing is the toggle paragraph will add a margin to bottom that will make the bottom div open a space for the toggle.
+      </p>
+    </div>
+
+    <div class="paragraphToggle center">
+      <button class="toggleButton" id="toggleButton">
+        Click For More
+      </button>
+      <p class="paragraph wrapper" id='paragraph'>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum dolore soluta odit, quia ea ex dolorum consectetur pariatur, aliquid, quasi beatae aut quis praesentium harum incidunt eius? Doloribus, doloremque soluta.
+      </p>
+      <div class="something center flex-container">
+        <p class="center flex-inner">
+          THIS IS JUST FOR ANNOYING
+        </p>
+      </div>
+    </div>
+
   </body>
 </html>
