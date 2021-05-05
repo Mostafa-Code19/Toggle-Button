@@ -1,6 +1,3 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './style.css';
 const log = (code) => {
   console.log(code)
 }
@@ -48,3 +45,5 @@ function paragraphToggle() {
     status = 'close'
   }
 }
+
+log('Script Working.')
